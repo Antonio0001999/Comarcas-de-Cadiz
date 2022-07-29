@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa</title>
+    <link rel="stylesheet" href="Mapa.css">
+    <link rel="stylesheet" href="Regiones/Regiones.css">
+    <script src="Modelo/Propietario.js"></script>
+    <script src="Modelo/Propietarios.js"></script>
+    <script src="Modelo/Region.js"></script>
+    <script src="Modelo/Regiones.js"></script>
+    <script src="Mapa.js"></script>
+</head>
+<body>
+    <div id="mapa">
+        <div id="bases">
+            <img id="base" src="Regiones/Base_A.png"/>
+            <img src="Regiones/Base_B.png"/>
+            <img id="marca" src=""/>
+        </div>
+        <div id="regiones">
+            <!-- <img id="REG_" src="Regiones/REG_000.png" hex="#" propietario="000" tipo="mar" nombre =""/> -->
+            <img id="REG_001" src="Regiones/REG_001.png" hex="#92880d" propietario="CNO" tipo="tierra" nombre="Trebujena"/>
+            <img id="REG_002" src="Regiones/REG_002.png" hex="#a39e65" propietario="CNO" tipo="tierra" nombre="Sánlucar de Barrameda"/>
+            <img id="REG_003" src="Regiones/REG_003.png" hex="#7f7a46" propietario="CNO" tipo="tierra" nombre="Chipiona"/>
+            <img id="REG_004" src="Regiones/REG_004.png" hex="#5d581d" propietario="CNO" tipo="tierra" nombre="Rota" />
+            <img id="REG_005" src="Regiones/REG_005.png" hex="#ffed2c" propietario="BDC" tipo="tierra" nombre ="El Puerto de Santa María"/>
+            <img id="REG_006" src="Regiones/REG_006.png" hex="#fff15b" propietario="BDC" tipo="tierra" nombre ="Puerto Real"/>
+            <img id="REG_007" src="Regiones/REG_007.png" hex="#eae397" propietario="BDC" tipo="tierra" nombre ="Cádiz"/>
+            <img id="REG_008" src="Regiones/REG_008.png" hex="#e0ce09" propietario="BDC" tipo="tierra" nombre ="San Fernando"/>
+            <img id="REG_009" src="Regiones/REG_009.png" hex="#c0b42e" propietario="BDC" tipo="tierra" nombre ="Chiclana de la Frontera"/>
+            <img id="REG_010" src="Regiones/REG_010.png" hex="#7a743c" propietario="JAN" tipo="tierra" nombre ="Conil de la Frontera"/>
+            <img id="REG_011" src="Regiones/REG_011.png" hex="#454433" propietario="JAN" tipo="tierra" nombre ="Vejer de la Frontera"/>
+            <img id="REG_012" src="Regiones/REG_012.png" hex="#302f1f" propietario="JAN" tipo="tierra" nombre ="Barbate"/>
+            <img id="REG_013" src="Regiones/REG_013.png" hex="#c2b100" propietario="CDG" tipo="tierra" nombre ="Tarifa"/>
+            <img id="REG_014" src="Regiones/REG_014.png" hex="#b0a31c" propietario="CDG" tipo="tierra" nombre ="Algeciras"/>
+            <img id="REG_015" src="Regiones/REG_015.png" hex="#b3af7e" propietario="CDG" tipo="tierra" nombre ="Línea de la Concepción"/>
+            <img id="REG_016" src="Regiones/REG_016.png" hex="#322e05" propietario="CDG" tipo="tierra" nombre ="San Roque"/>
+            <img id="REG_017" src="Regiones/REG_017.png" hex="#988a00" propietario="CDG" tipo="tierra" nombre ="Los Barrios"/>
+            <img id="REG_018" src="Regiones/REG_018.png" hex="#49440b" propietario="CDG" tipo="tierra" nombre ="Castellar de la Frontera"/>
+            <img id="REG_019" src="Regiones/REG_019.png" hex="#6f6500" propietario="CDG" tipo="tierra" nombre ="Jimena de la Frontera"/>
+            <img id="REG_020" src="Regiones/REG_020.png" hex="#b3af87" propietario="JAN" tipo="tierra" nombre ="Alcalá de los Gazules"/>
+            <img id="REG_021" src="Regiones/REG_021.png" hex="#a9a369" propietario="JAN" tipo="tierra" nombre ="Benalup-Casas Viejas"/>
+            <img id="REG_022" src="Regiones/REG_022.png" hex="#fff8b4" propietario="JAN" tipo="tierra" nombre ="Medina Sidonia"/>
+            <img id="REG_023" src="Regiones/REG_023.png" hex="#ddd9af" propietario="JAN" tipo="tierra" nombre ="Paterna de Rivera"/>
+            <img id="REG_024" src="Regiones/REG_024.png" hex="#e3d437" propietario="CDJ" tipo="tierra" nombre ="Jerez de la Frontera"/>
+            <img id="REG_025" src="Regiones/REG_025.png" hex="#beb022" propietario="CDJ" tipo="tierra" nombre ="San José del Valle"/>
+            <img id="REG_026" src="Regiones/REG_026.png" hex="#a59d3f" propietario="SDC" tipo="tierra" nombre ="Algar"/>
+            <img id="REG_027" src="Regiones/REG_027.png" hex="#c3bb5e" propietario="SDC" tipo="tierra" nombre ="Arcos de la Frontera"/>
+            <img id="REG_028" src="Regiones/REG_028.png" hex="#b3ac5d" propietario="SDC" tipo="tierra" nombre ="Espera"/>
+            <img id="REG_029" src="Regiones/REG_029.png" hex="#a39a2d" propietario="SDC" tipo="tierra" nombre ="Bornos"/>
+            <img id="REG_030" src="Regiones/REG_030.png" hex="#c7bd4c" propietario="SDC" tipo="tierra" nombre ="Villamartín"/>
+            <img id="REG_031" src="Regiones/REG_031.png" hex="#b4af6b" propietario="SDC" tipo="tierra" nombre ="Prado del Rey"/>
+            <img id="REG_032" src="Regiones/REG_032.png" hex="#767350" propietario="SDC" tipo="tierra" nombre ="El Bosque"/>
+            <img id="REG_033" src="Regiones/REG_033.png" hex="#69631f" propietario="SDC" tipo="tierra" nombre ="Benaocaz"/>
+            <img id="REG_034" src="Regiones/REG_034.png" hex="#898012" propietario="SDC" tipo="tierra" nombre ="Ubrique"/>
+            <img id="REG_035" src="Regiones/REG_035.png" hex="#beaf08" propietario="SDC" tipo="tierra" nombre ="Villaluenga del Rosario"/>
+            <img id="REG_036" src="Regiones/REG_036.png" hex="#d9c800" propietario="SDC" tipo="tierra" nombre ="Grazalema"/>
+            <img id="REG_037" src="Regiones/REG_037.png" hex="#e5e0a7" propietario="SDC" tipo="tierra" nombre ="El Gastor"/>
+            <img id="REG_038" src="Regiones/REG_038.png" hex="#e5d62e" propietario="SDC" tipo="tierra" nombre ="Zahara de la Sierra"/>
+            <img id="REG_039" src="Regiones/REG_039.png" hex="#cbc25b" propietario="SDC" tipo="tierra" nombre ="Algodonales"/>
+            <img id="REG_040" src="Regiones/REG_040.png" hex="#b3af7d" propietario="SDC" tipo="tierra" nombre ="Puerto Serrano"/>
+            <img id="REG_041" src="Regiones/REG_041.png" hex="#66644b" propietario="SDC" tipo="tierra" nombre ="Olvera"/>
+            <img id="REG_042" src="Regiones/REG_042.png" hex="#4b4610" propietario="SDC" tipo="tierra" nombre ="Torre Alhamique"/>
+            <img id="REG_043" src="Regiones/REG_043.png" hex="#6b662f" propietario="SDC" tipo="tierra" nombre ="Alcalá del Valle"/>
+            <img id="REG_044" src="Regiones/REG_044.png" hex="#2e2a01" propietario="SDC" tipo="tierra" nombre ="Setenil de las Bodegas"/>
+            <img id="REG_045" src="Regiones/REG_045.png" hex="#cccccc" propietario="ESP" tipo="tierra" nombre ="Andalucía"/>
+            <img id="REG_046" src="Regiones/REG_046.png" hex="#999999" propietario="GBR" tipo="tierra" nombre ="Peñón de Gibraltar"/>
+            <img id="REG_047" src="Regiones/REG_047.png" hex="#a4bfce" propietario="000" tipo="mar" nombre ="Golfo de Cádiz"/>
+            <img id="REG_048" src="Regiones/REG_048.png" hex="#5f8ca5" propietario="000" tipo="mar" nombre ="Estecho de Gibraltar"/>
+            <img id="REG_049" src="Regiones/REG_049.png" hex="#3f95c4" propietario="000" tipo="mar" nombre ="Mar de Alborán"/>
+        </div>
+    </div>
+    <div id="info"></div>
+</body>
+</html>

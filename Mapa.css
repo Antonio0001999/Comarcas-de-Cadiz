@@ -1,0 +1,12 @@
+body { margin: 0px; }
+/*MODIFICADORES DEL MAPA*/
+#mapa { height: 1080px; width: 1372px; }
+#mapa img { pointer-events: none; position: absolute; }
+#marca { filter: invert(50%); }
+
+#info {
+    top: 10px;
+    left: 10px;
+    position: fixed;
+    font-size: xx-large;
+}

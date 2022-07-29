@@ -1,0 +1,11 @@
+/*COLORES DE REGIONES*/
+[propietario="000"] { filter: brightness(0.5) opacity(0.5) drop-shadow(0 0 0 #96c8ff); }
+
+[propietario="ESP"] { filter: brightness(0.5) opacity(0.5) drop-shadow(0 0 0 #ffff00); }
+[propietario="GBR"] { filter: brightness(0.5) opacity(0.5) drop-shadow(0 0 0 #cc6859); }
+[propietario="SDC"] { filter: brightness(0.5) opacity(0.5) drop-shadow(0 0 0 #c3bb5e); }
+[propietario="CDJ"] { filter: brightness(0.5) opacity(0.5) drop-shadow(0 0 0 #e3d437); }
+[propietario="CNO"] { filter: brightness(0.5) opacity(0.5) drop-shadow(0 0 0 #a39e65); }
+[propietario="BDC"] { filter: brightness(0.5) opacity(0.5) drop-shadow(0 0 0 #eae397); }
+[propietario="JAN"] { filter: brightness(0.5) opacity(0.5) drop-shadow(0 0 0 #fff8b4); }
+[propietario="CDG"] { filter: brightness(0.5) opacity(0.5) drop-shadow(0 0 0 #b0a31c); }
